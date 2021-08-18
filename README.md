@@ -1,3 +1,2 @@
-# AGRITECH 
+# AgriTech -  USGS LIDAR Challenge
 
-## Steps
