@@ -1,12 +1,11 @@
 geopandas
 imageio
 pandas
-pathlib
 pdal
 matplotlib
-mapclassify
 numpy
 laspy
 rasterio
 folium
-shapely
+gdal
+osgeo
