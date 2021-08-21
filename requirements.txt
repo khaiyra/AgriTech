@@ -2,10 +2,10 @@ geopandas
 imageio
 pandas
 pdal
+osgeo
 matplotlib
 numpy
 laspy
 rasterio
 folium
 gdal
-osgeo
