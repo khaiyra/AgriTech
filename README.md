@@ -18,8 +18,7 @@ This data was read from the [USGS 3DEP AWS Public Dataset](https://www.usgs.gov/
 * [notebook.ipynb](https://github.com/khaiyra/AgriTech/blob/main/notebook.ipynb): implementaion and testing of package
 * [requirements.txt](https://github.com/khaiyra/AgriTech/blob/main/requirements.txt): file for dependencies for the project
 
-### Functionalities
-* Interface with USGS 3DEP and fetch data using their API
-* Query the data model
-* Terrain visualization
-* Data transformation 
+## Module Functionalities
+The python package contains a class that has different python functions defined to create a PDAL pipeline, fetch and read the data, convert  the data from tif to a shp file, plot the heatmpa and raster image and also calculate and give output of its topographic wetness index(TWI) as an additional column returned with geopandas dataframe.
+FUNCTIONS EXPLAINED - 
+* get pipeline: 
