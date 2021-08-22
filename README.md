@@ -21,4 +21,9 @@ This data was read from the [USGS 3DEP AWS Public Dataset](https://www.usgs.gov/
 ## Module Functionalities
 The python package contains a class that has different python functions defined to create a PDAL pipeline, fetch and read the data, convert  the data from tif to a shp file, plot the heatmpa and raster image and also calculate and give output of its topographic wetness index(TWI) as an additional column returned with geopandas dataframe.
 FUNCTIONS EXPLAINED - 
-* get pipeline: 
+* create_pipeline: this function takes 3 aruements; the pipeline path, bound and location and returns a json pipeline that fetches the data
+* read_data: reads data from the PDAL pipeline
+* convert_tif_to_shp: converts tif file to shp for easier importation
+* get_dimensions: returns the elevation and geometry from the shp file
+* heatmap: creates heatmap of the region and its elevation
+* plot_raster: plots raster tif image both in log scale(+1) and original version
